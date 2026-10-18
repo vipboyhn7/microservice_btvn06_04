@@ -5,6 +5,7 @@
 - `discovery-service`: Eureka service registry on port `8761`.
 - `patient-service`: Patient API on port `8081`, registered with Eureka.
 - `doctor-service`: Doctor API on port `8082`, registered with Eureka.
+- `appointment-service`: Appointment API on port `8083`, registered with Eureka.
 
 ## Run the services
 
@@ -30,3 +31,5 @@ mvn spring-boot:run
 ```
 
 The doctor list is available at `http://localhost:8082/api/v1/doctors`.
+
+The appointment endpoint is available at `http://localhost:8083/api/v1/appointments`.
